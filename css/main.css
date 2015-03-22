@@ -1,0 +1,498 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #5f1b0a;
+}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    height: 100%;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid ##5f1b0a;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.footer-container {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Georgia, Palatino, serif;
+    height: 100%;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+/* ===================
+    ALL: Orange Theme
+   =================== */
+.main-container {
+    background: url("http://gregmyers.net/oldtimefiddlers/images/white_wall2.png") repeat;
+    background-color: #;
+}
+
+.header-container {
+    border-bottom: 7px solid #5C2929;
+}
+
+.footer-container,
+.main aside {
+    border-top: 10px solid #5C2929;
+}
+
+.header-container,
+.footer-container,
+.main aside {
+    background: linear-gradient(180deg, #852828 35%, #6F2929 67%); 
+    background: -moz-linear-gradient(180deg, #852828 35%, #6F2929 67%); 
+    background: -webkit-linear-gradient(180deg, #852828 35%, #6F2929 67%); 
+    background: -o-linear-gradient(180deg, #852828 35%, #6F2929 67%); 
+}
+
+.title {
+    color: #FFFCFC;
+    text-align: center;
+    font-size: 2.5em;
+    text-shadow:
+	1px 1px 0 #111,
+	2px 2px 1px #555,
+	3px 3px 1px #444,
+	4px 4px 1px #333,
+	5px 5px 1px #333,
+	6px 6px 1px #222;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    display: block;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.77);
+    -moz-box-shadow:    3px 3px 5px 0px rgba(0, 0, 0, 0.77);
+    box-shadow:         3px 3px 5px 0px rgba(0, 0, 0, 0.77);
+    margin-bottom: 4px;
+    padding: 3px 0;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: #EfE9E9;
+    background: #9E2828;
+}
+
+nav a:hover {
+    color: white; 
+    font-size: 108%;
+}
+
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+h1,
+h2 {
+    text-align: center;
+}
+.title
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    display: none;
+    color: white;
+    padding: 0px 5% 10px;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 10px 0;
+}
+
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+#multilineh1 {
+    line-height: 50px;
+}
+
+#webmaster {
+    color: orange;
+}
+
+header a {
+    text-decoration: none;
+}
+
+#fiddlersPhoto {
+    max-width: 100%;
+    height: auto;
+    margin: 0px auto 0px 5%;
+}
+
+#fb-video {
+    text-align: center;
+    margin: 0 auto;
+}
+#facebook-follow,
+#contact-email,
+#youtube1 {
+    text-align: center;
+}
+body {
+    min-height: 100%;
+}
+
+#main1 {
+    min-height: 100%;
+}
+
+.wrap:after {
+    content: "";
+    display: block;
+}
+.footer-container {
+    height: 70px;
+}
+
+#contact-email {
+    margin: auto;
+}
+.footer, .push {
+    height: 4em;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+@media screen and (max-width: 680px) {
+    .title {
+        line-height: 40px;
+        font-size: 40px;
+    }
+    #fiddlersPhoto {
+        max-width: 100%;
+        height: auto;
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+    
+    nav a {
+        float: left;
+        width: 19%;
+        margin: 0 1%;
+        padding: 5px 2%;
+        margin-bottom: 0;        
+    }
+
+    nav li:first-child a {
+        margin-left: 0;
+    }
+
+    nav li:last-child a {
+        margin-right: 0;
+    }
+ 
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 870px) {
+
+/* ====================
+    WIDE: CSS3 Effects
+   ==================== */
+
+    .header-container,
+    .main aside {
+        -webkit-box-shadow: 0 5px 10px #aaa;
+           -moz-box-shadow: 0 5px 10px #aaa;
+                box-shadow: 0 5px 10px #aaa;
+    }
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        width: 38%;
+    }
+    
+    nav a {
+        padding: 17px 2%;
+        margin-top: 3%;
+    }
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    
+    .main article {
+        margin: auto;
+        width: 70%;
+    }
+/* Turned off aside*/
+    .main aside {
+        display: none;
+        float: right;
+        width: 28%;
+    }
+}
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+.fiddlersold {
+    max-width: 100%;
+    height: auto;
+}
+.fiddlersolddescription {
+    text-align: center;
+    margin-top: -3px;
+    font-size: 20px;
+}
+.concertDate {
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.fallFiddleFest {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.concertVenue {
+    text-align: center;
+    font-size: 1.3em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.address {
+    text-align: center;
+    font-size: 1.2em; 
+    font-weight: bold;
+}
+
+.schedule2015 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    text-decoration: underline;
+}
+
+.separator {
+    text-align: center;
+}
+
+a.youtubeLesson {
+  text-align: center;
+  display: block;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
